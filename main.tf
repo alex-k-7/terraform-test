@@ -26,6 +26,3 @@ resource "aws_instance" "first_ec2" {
   }
   associate_public_ip_address = true
 }
-
-data "aws_caller_identity" "current" {}
-data "aws_region" "current" {}
